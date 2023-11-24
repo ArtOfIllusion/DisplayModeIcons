@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<extension name="DisplayModeIcons" version="2.4">
+  <plugin class="artofillusion.displaymodeicons.DisplayModeIconsPlugin"/>
+  <author>François Guillet, Nik Trevallyn-Jones, Petri Ihalainen</author>
+  <date>2023-Oct-08</date>
+  <description>
+     This plugin adds a set of icons to the menubar of every editing view.
+     The icons provide quick selection of display-, perpective- and navigationmodes.
+  </description>
+  <history>
+    <log version="2.4" date="08 October 2023" author="Petri Ihalainen">
+       - Fixed navigation down menu width
+	   - Added text to navigation menu items.
+       - Added adaptive tool tip texts
+       - Added translations
+    </log>
+    <log version="2.3 (private)" date="2021" author="Petri Ihalainen">
+       - Added Align to Axes icon
+       - Renewed perpective icons
+       - Reordered the icons to match the logic of plain AoI
+       - Perspective selection with new icons and drop down menu
+       - Disabled mode changes by icons while performing view changes
+    </log>
+    <log version="2.2.1" date="27 October 2019" author="Petri Ihalainen">
+       - Usability fix to navigation selection
+    </log>
+    <log version="2.2" date="26 October 2019" author="Petri Ihalainen">
+       - AoI 3.1 compatibility
+    </log>
+    <log version="2.1" date="14 May 2015" author="Petri Ihalainen">
+      - Bug fix. Made compatible with boolean modelling window.
+        (The 'rendered' option was not available in the menu. The attempt to remove it prevented opening the window.)
+    </log>
+    <log version="2.0" date="29 April 2015" author="Petri Ihalainen">
+      - Icon for the 'rendered'-mode added. The plugin removes 'rendered'-mode from the menu.
+      - The menu items set the mode for all the views in a window.
+      - Now the menu has the same behaviour in all editing windows, not just the scene window.
+    </log>
+    <log version="1.2" date="Jan 2009" author="François Guillet and Nik Trevallyn-Jones">
+      - Changes for compatibility with AOI 2.7
+      - Fixed a problem that could show up if other ViewerControls had been installed (by another plugin)    
+    </log>
+    <log version="1.1" date="02 may 2008" author="François Guillet">
+      First release.
+    </log>
+    <log version="1.0" date="02 august 2007" author="François Guillet">
+      First release.
+    </log>
+  </history>
+  <comments>
+  </comments>
+  <resource type="TranslateBundle" id="displaymodeicons" name="displaymodeicons"/>
+  <resource type="UITheme"         id="displaymodeicons" name="displaymodeicons/theme.xml"/>
+</extension>
