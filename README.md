@@ -6,4 +6,4 @@ It adds a set of icons on the tool bar of every view to control view properties.
 
 ![DiplayModeIcons](https://github.com/ArtOfIllusion/DisplayModeIcons/assets/22843957/670736ca-aa16-44a3-bc90-414dff40f4ea)
 
-The plugin also changes the behavior of the View/Diplay Mode-menu selection to affect all views, instead of the the active one, so instead of redundancy you'll have a more powerful tool in the menu and the routinely used tool on the icons.
+Additionally, the plugin changes the behavior of the **View/Diplay Mode**-menu selection to affect all views, instead of the the active one, so instead of redundancy you'll have a more powerful tool in the menu and the routinely used tool on the icons.
