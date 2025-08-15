@@ -37,9 +37,9 @@ public class DisplayModeIconsPlugin implements Plugin
   public void processMessage(int message, Object args[]) 
   {
     if (message == Plugin.APPLICATION_STARTING) 
-    {  
+    {
       // Remove the built-in perspective and navigation controls
-      
+
       List controls = ViewerCanvas.getViewerControls();
       for (int i = 0; i < controls.size(); i++) 
       {
@@ -147,7 +147,6 @@ public class DisplayModeIconsPlugin implements Plugin
 
   private void showScalingToolTip(ToolTipEvent e)
   {
-    System.out.println("SCA");
     Widget ew  = e.getWidget();
     for (int w = 0; w < scalingWidget.length; w++)
       if (ew == scalingWidget[w])
@@ -168,7 +167,7 @@ public class DisplayModeIconsPlugin implements Plugin
     We trust, that the menu is arranged in the expected numerical order. It would 
     be safer to use MenuItem names or translation texts.
   */
-  
+
   private class AllViewsDisplayMenuManager 
   {
     BFrame window;
@@ -243,7 +242,7 @@ public class DisplayModeIconsPlugin implements Plugin
             if (((BMenu)barMenu.getChild(j)).getName().endsWith("displayMode"))
               menu = (BMenu)barMenu.getChild(j);
       }
-    }    
+    }
     return menu;
   }
 }

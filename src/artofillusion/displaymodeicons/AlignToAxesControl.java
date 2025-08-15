@@ -70,6 +70,9 @@ public class AlignToAxesControl implements ViewerControl
       view.alignWithClosestAxis();
     }
 
+    // If two components of axis direction vector are 0.0, then that axis is aligned with 
+    // a world axis.
+
     private boolean viewIsAligned()
     {
       up = view.getCamera().getCameraCoordinates().getUpDirection();
